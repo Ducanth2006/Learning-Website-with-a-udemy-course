@@ -1,0 +1,26 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+/* chỉ có thẻ và class  */
+p.note {
+  color: red;
+}
+/* có thẻ và class và value */
+li.note[value] {
+  font-size: 20px;
+}
+/* id */
+#id-selector-demo {
+  color: green;
+}
+li.note[value="4"] {
+  color: blue;
+}
+/* đặt tất cả thẻ vào giữa */
+* {
+  text-align: center;
+}

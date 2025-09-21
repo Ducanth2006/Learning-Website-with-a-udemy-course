@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .red-circle{
+      width:175px;
+      height:175px;
+      background-color: red;
+      border-radius:175px;/* đặt bằng chiều dài và chiều rộng  */
+      position:absolute;
+      left:250px;/* có position rồi thì không cần margin left hay
+       margin top nũa */
+      top:150px;
+    }
+    .blue-box{
+      background-color:blue;
+      width:500px;
+      height:300px;
+      margin-left:200px;
+      margin-top:200px;
+      position:relative;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+
+</body>
+
+</html>

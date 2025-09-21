@@ -1,0 +1,15 @@
+/* Write your code here: */
+/* group selector */
+h1,h2{
+    color:blueviolet;
+    font-style:italic  ;
+}
+/* child selector */
+div > .done {
+    color:brown;
+
+}
+/* descedent selector chỉ chi tiết được hơn child selector */
+div .list li{
+    color:yellowgreen
+}
